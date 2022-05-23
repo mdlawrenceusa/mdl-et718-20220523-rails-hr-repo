@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Image url:</strong>
+  <%= @name.image_url %>
+</p>
+
+<p>
+  <strong>Role:</strong>
+  <%= @name.role %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @name.location %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @name.email %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @name.phone %>
+</p>
+
+<%= link_to 'Edit', edit_name_path(@name) %> |
+<%= link_to 'Back', names_path %>
